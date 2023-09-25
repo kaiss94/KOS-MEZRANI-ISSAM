@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KOS VSG</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Lobster+Two&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <header class="container-fluid p-0 m-auto" id="index">
+      <div id="baniere" class="bg-primary text-center p-1 m-auto">
+        <h1 class="pt-3">K.O.S VILLENEUVE</h1>
+      </div>
+      <div id="logo" class="d-flex flex-column m-3 text-center">
+        <a href="#"><img src="images/logoKOSblanc.png" alt="logo club"
+            width="100" height="100"></a>
+        <h3 class="pt-2">KARATÉ-DO OKINAWA SHOTOKAN</h3>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#index">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#le-club">Le Club</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="horaires.html" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Infos pratiques
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="horaires.html">Horaires et lieux</a></li>
+                  <li><a class="dropdown-item" href="horaires.html">Inscriptions</a></li>
+                  <li><a class="dropdown-item" href="horaires.html">Tarifs</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="events.html">Evènements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Résultats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galerie</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <section class="my-3 d-none d-lg-block">
+        <div id="carouselDuClub" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselDuClub"
+              data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselDuClub"
+              data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselDuClub"
+              data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselDuClub"
+              data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselDuClub"
+              data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/photo-club-1.jpg" class="rounded mx-auto d-block"
+                alt="..." height="500" width="auto">
+            </div>
+            <div class="carousel-item">
+              <img src="images/photo-club-2.jpg" class="rounded mx-auto d-block"
+                alt="..." height="500" width="auto">
+            </div>
+            <div class="carousel-item">
+              <img src="images/photo-club-3.jpg" class="rounded mx-auto d-block"
+                alt="..." height="500" width="auto">
+            </div>
+            <div class="carousel-item">
+              <img src="images/photo-club-4.jpg" class="rounded mx-auto d-block"
+                alt="..." height="500" width="auto">
+            </div>
+            <div class="carousel-item">
+              <img src="images/photo-club-5.jpg" class="rounded mx-auto d-block"
+                alt="..." height="500" width="auto">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselDuClub" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselDuClub" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="my-3">
+        <div id="le-club" class="m-auto p-2">
+          <h4>Le Club</h4>
+          <ul>
+            <li>
+              <h6>Histoire du club</h6>
+              <p>Notre club <span class="fw-bold">K.O.S Villeneuve</span> est heureux d'acceuillir tous les publics et tous les âges à partir de 3 ans pour la pratique du <span class="fw-bold"> karaté shotokan</span>.</p>
+              <p>Fondé en 1997, ce club n'a cessé de promouvoir le respect, l'intégrité, l'autodiscipline et l'excellence dans la pratique du karaté. 
+                Nous croyons fermement en l'équilibre entre la formation physique, mentale et émotionnelle, et nous cherchons à inspirer nos membres à atteindre leurs objectifs personnels, qu'ils soient liés à la maîtrise technique, à la condition physique ou à la confiance en soi.</p>
+            </li>
+            <li>
+              <h6>Notre Équipe</h6>
+              <p>Notre club est dirigé par une équipe d'instructeurs expérimentés et passionnés, dévoués à guider chaque membre vers l'excellence dans leur pratique du karaté. 
+                Nous valorisons l'apprentissage continu et nous engageons à rester à jour avec les dernières avancées dans l'art martial du karaté.</p>
+            </li>
+            <li>
+              <h6>Présentation des entraineurs</h6>
+              <p>Les cours sont assurés par :</p>
+              <p><span class="fw-bold">Junaid IQBAL RAJA :</span></p>
+              <p>4ème Dan, Instructeur Fédéral, Diplômé d’Etat (DEJEPS, BEES 1er degré), préparateur Physique.</p>
+
+            </li>
+          </ul>
+          
+        </div>
+      </section>
+
+      
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
